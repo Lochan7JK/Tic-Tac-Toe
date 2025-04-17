@@ -1,0 +1,57 @@
+body{
+    font-family: "Patrick Hand SC", cursive;
+    text-align: center;
+    background-image: url(./bg.jpg);
+}
+
+#heading{
+    color: #493628;
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+hr{
+    width: 500px;
+    height: 5px;
+    background-color: #493628;
+    margin-top: 15px;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    /* background-color: palegreen; */
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 145px;
+    height: 145px;
+    font-size: 150px;
+    color: #554b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    border-bottom: 5px solid #493628;
+}
+
+.vertical-line{
+    border-right: 5px solid #493628;
+}
+
+.winner{
+    background-color: #C1BAA1;
+    color: #493628;
+}
+
+#victor{
+    font-size: 30px;
+    color: #554b3b;
+    font-weight: 300;
+}
